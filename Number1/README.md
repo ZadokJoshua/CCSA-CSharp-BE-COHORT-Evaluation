@@ -1,4 +1,5 @@
-### Problem Statement
+#### Problem Statement
+***
 • In the CypherCrescent Software Academy, there are two possible Programmes one can join – Frontend and Backend. Both programmes hold classes on Tuesday and Thursday. However, the Backend holds an additional class on Monday, while the Frontend holds an additional class on Wednesday.
 
 • Each programme has a collection of Students, and each Student is associated with only one programme. Programmes also have a collection of facilitators, and every facilittaor is associated with just one programme. Both facilitator and student are humans all humans and have names, can attend class, ask questions, and answer questions. They all attend classes in the same way but ask and answer questions differently. Students can ask questions to facilitators and fellow students, while facilitators ask questions to students alone. Both students and facilitators can also answer questions. Both give explanations when they answer, but a facilitator gives additional resources after explanations.
