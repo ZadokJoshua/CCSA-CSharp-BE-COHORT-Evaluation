@@ -16,23 +16,27 @@ namespace CCLAcademy
         }
         public override void AttendClass(DaysOfWeek classDay)
         {
-            if(classDay == DaysOfWeek.Tuesday || classDay == DaysOfWeek.Monday || classDay == DaysOfWeek.Thursday && MyProgram == ProgramType.Backend)
+            if((classDay == DaysOfWeek.Tuesday || classDay == DaysOfWeek.Monday || classDay == DaysOfWeek.Thursday) && MyProgram == ProgramType.Backend)
             {
-                Console.WriteLine("The host will let you in shortly");
+                Console.WriteLine("\tThe host will let you in shortly");
                 Thread.Sleep(5000);
-                Console.WriteLine("You’re in!");
+                Console.WriteLine("\tYou’re in!");
             }
-            else if (classDay == DaysOfWeek.Tuesday || classDay == DaysOfWeek.Wednesday || classDay == DaysOfWeek.Thursday && MyProgram == ProgramType.Frontend)
+            else if ((classDay == DaysOfWeek.Tuesday || classDay == DaysOfWeek.Wednesday || classDay == DaysOfWeek.Thursday) && MyProgram == ProgramType.Frontend)
             {
-                Console.WriteLine("The host will let you in shortly");
+                Console.WriteLine("\tThe host will let you in shortly");
                 Thread.Sleep(5000);
-                Console.WriteLine("You’re in!");
+                Console.WriteLine("\tYou’re in!");
             }
             else
             {
-                Console.WriteLine("No class today");
+                Console.WriteLine("\tNo class today");
             }
+        }
+
+        public void AnswerExplanation()
+        {
+            Console.WriteLine("My answer to your question is..."); ;
         }
     }
 }
-
