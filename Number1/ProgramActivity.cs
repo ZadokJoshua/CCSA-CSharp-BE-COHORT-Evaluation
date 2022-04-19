@@ -14,7 +14,7 @@ namespace CCLAcademy
 
     interface IAnswer
     {
-
+        void AnswerExplanation();
     }
 }
 
