@@ -12,3 +12,15 @@
 
 • To test your code, create an array of 10 humans (4 facilitators & 6 students) – 5 frontend and 5 backend. Using one loop, each of the 10 humans should attempt to attend classes on Monday and Wednesday.
 ![CCL_ACADEMY](https://user-images.githubusercontent.com/65626254/164048299-43c65118-1877-48d1-a2d6-3aa89748b899.png)
+
+#### Question 2
+***
+- **MinAndMaxRecusion**:
+
+Write a console application that prints the result of the sum of the largest element of an array and the
+lowest element of an array using recursion. The console should print every stage of the iterative process.
+
+- **FindNumbersInAString**:
+
+Write a method that checks all the characters in a string and returns the total number of text characters
+and the total number of numeric characters. 
