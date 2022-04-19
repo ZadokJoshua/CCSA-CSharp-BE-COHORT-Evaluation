@@ -1,5 +1,5 @@
 #### Question 2
-
+***
 - **MinAndMaxRecusion**:
 
 Write a console application that prints the result of the sum of the largest element of an array and the
