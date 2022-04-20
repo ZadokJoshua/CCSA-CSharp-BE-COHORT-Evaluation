@@ -21,11 +21,12 @@ namespace MinAndMaxRecusion
                 Console.Write($"Element[{i}] = ");
                 userArray[i] = int.Parse(Console.ReadLine());
             }
-
-
+            
             Console.WriteLine("------------------------");
             Console.WriteLine("Maximum value = " + MaxValue(userArray, arrLen));
             Console.WriteLine("Minimum value = " + MinValue(userArray, arrLen));
+            Console.WriteLine("------------------------");
+            Console.WriteLine($"Sum = {MaxValue(userArray, arrLen) + MinValue(userArray, arrLen)}");
         }
 
         public static int MinValue(int[] numsArr, int arraylength)
