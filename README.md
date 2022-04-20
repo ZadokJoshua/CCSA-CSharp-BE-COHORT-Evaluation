@@ -11,6 +11,7 @@
 • Hint: Days of the week should be an enum.
 
 • To test your code, create an array of 10 humans (4 facilitators & 6 students) – 5 frontend and 5 backend. Using one loop, each of the 10 humans should attempt to attend classes on Monday and Wednesday.
+
 ![CCL_ACADEMY](https://user-images.githubusercontent.com/65626254/164048299-43c65118-1877-48d1-a2d6-3aa89748b899.png)
 
 #### Question 2
